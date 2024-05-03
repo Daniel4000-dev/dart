@@ -1,14 +1,15 @@
 void main() {
-  Cookie cookie = Cookie();
-  cookie.baking();
-  final isCookieCooling = cookie.isCooling();
-  print(isCookieCooling);
+  final cookie = Cookie('spade', 20);
+  print(cookie);
 }
 
 class Cookie {
-  // variables
-  String shape = 'Circle';
-  double size = 15.2;
+  String shape;
+  double size;
+  Cookie(this.shape, this.size) {
+    print('Cookie constructor called');
+    baking();
+  }
 
   // functions
   void baking() {
