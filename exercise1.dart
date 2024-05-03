@@ -10,28 +10,30 @@ calculate the shipping cost according to these conditions:
   If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message
   */
 
-  const destinationZone = 'PQR';
-  const weightInKgs = 6;
+  String destinationZone = 'PQR';
+  double weightInKgs = 6;
+  double cost = 0;
 
   if(destinationZone == 'PQR') {
-    print('Shipping Cost: ${weightInKgs * 10}');
+    cost = weightInKgs * 10;
   } else if(destinationZone == 'ABC') {
-    print('Shipping Cost: ${weightInKgs * 7}');
+    cost = weightInKgs * 7;
   } else if(destinationZone == 'XYZ') {
-    print('Shipping Cost: ${weightInKgs * 5}');
+    cost = weightInKgs * 5;
   } else {
     print('No Specified Location');
   }
+  print('Shipping Cost: $cost');
  
 
- switch(destinationZone) {
-  case 'PQR':
-    print('Shipping Cost: ${weightInKgs * 10}');
-  case 'XYZ':
-    print('Shipping Cost: ${weightInKgs * 5}');
-  case 'ABC':
-    print('Shipping Cost: ${weightInKgs * 7}');
-  default:
-    print('No Specified Location');
-}
+//  switch(destinationZone) {
+//   case 'PQR':
+//     print('Shipping Cost: ${weightInKgs * 10}');
+//   case 'XYZ':
+//     print('Shipping Cost: ${weightInKgs * 5}');
+//   case 'ABC':
+//     print('Shipping Cost: ${weightInKgs * 7}');
+//   default:
+//     print('No Specified Location');
+// }
 }
