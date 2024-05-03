@@ -1,6 +1,6 @@
 void main() {
   // Functions
-   String name = printName();
+   var name = printName();
    print(name);
 }
 
