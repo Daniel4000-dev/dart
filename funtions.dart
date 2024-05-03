@@ -1,11 +1,11 @@
 void main() {
   // Functions
    String name = 'Rivaan R.';
-   printName(name);
+   printName(greeting: 'Hello', name: name, age: 14);
 }
 
 
-void printName(name) {
+void printName({required String name, int? age,required String greeting}) {
  print(name);
 }
 
