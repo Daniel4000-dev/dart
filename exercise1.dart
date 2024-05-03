@@ -10,7 +10,7 @@ calculate the shipping cost according to these conditions:
   If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message
   */
 
-  String destinationZone = 'PQR';
+  String destinationZone = 'PQRS';
   double weightInKgs = 6;
   double cost = 0;
 
@@ -22,18 +22,19 @@ calculate the shipping cost according to these conditions:
     cost = weightInKgs * 5;
   } else {
     print('No Specified Location');
+    return;
   }
   print('Shipping Cost: $cost');
  
 
-//  switch(destinationZone) {
-//   case 'PQR':
-//     print('Shipping Cost: ${weightInKgs * 10}');
-//   case 'XYZ':
-//     print('Shipping Cost: ${weightInKgs * 5}');
-//   case 'ABC':
-//     print('Shipping Cost: ${weightInKgs * 7}');
-//   default:
-//     print('No Specified Location');
-// }
+ switch(destinationZone) {
+  case 'PQR':
+    print('Shipping Cost: ${weightInKgs * 10}');
+  case 'XYZ':
+    print('Shipping Cost: ${weightInKgs * 5}');
+  case 'ABC':
+    print('Shipping Cost: ${weightInKgs * 7}');
+  default:
+    print('No Specified Location');
+}
 }
