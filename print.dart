@@ -1,10 +1,10 @@
 void main() {
   // Variables
-  String greeting = 'Hello, World';
-  print(greeting);
-  greeting = '${greeting.length} Yoooo';
+  // var/final/const variableName = value;
 
-  print(greeting);
+  final someValue2 = DateTime.now();
+  // const someValue3 = DateTime.now();
 
+   print(someValue2);
 
 }
