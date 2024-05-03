@@ -5,8 +5,8 @@ void main() {
 }
 
 
-String printName() {
-  return 'My Name is Daniel';
+(int, String) printName() {
+  return (12, 'My Name is Daniel');
 }
 
 /*
