@@ -3,7 +3,9 @@ void main() {
   // String/int/bool and null
 
 
-  int? someValue2 = null;
+  int? someValue2;
+
+  print(someValue2);
 
 
 
