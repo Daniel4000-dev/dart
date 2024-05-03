@@ -1,12 +1,18 @@
 void main() {
   // Variables
 
+  // <datatype> <variablename> = value;
+
+double firstValue = 3002;
+double secondValue = 31;
   // First Value
-  print(19);
+  print(firstValue);
 
   // Second Value
-  print(5);
-  print(18*5);
-  print(18*7);
-  print(27*4);
+  print(secondValue);
+
+  print(firstValue * secondValue);
+  print(firstValue + secondValue);
+  print(firstValue - secondValue);
+  print(firstValue / secondValue);
 }
