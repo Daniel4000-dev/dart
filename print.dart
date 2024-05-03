@@ -1,11 +1,14 @@
+String? someValue;
+
 void main() {
   // Optional Variables
   // String/int/bool and null
 
-
-  int? someValue2;
-
-  print(someValue2);
+  print(someValue);
+  someValue =  null;
+  print(someValue?.length??0);
+  someValue = null;
+  print(someValue?.length);
 
 
 
