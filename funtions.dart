@@ -1,13 +1,11 @@
 void main() {
   // Functions
-   String name = 'Rivaan R.';
-   printName(greeting: 'Hello', name: name, age: 14);
+  final name = printStuff();
+  print(name);
 }
 
 
-void printName({required String name, int? age,required String greeting}) {
- print(name);
-}
+void printStuff() => print('Hi');
 
 /*
 <datatype> fnName() {
