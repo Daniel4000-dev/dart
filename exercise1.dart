@@ -23,4 +23,15 @@ calculate the shipping cost according to these conditions:
     print('No Specified Location');
   }
  
+
+ switch(destinationZone) {
+  case 'PQR':
+    print('Shipping Cost: ${weightInKgs * 10}');
+  case 'XYZ':
+    print('Shipping Cost: ${weightInKgs * 5}');
+  case 'ABC':
+    print('Shipping Cost: ${weightInKgs * 7}');
+  default:
+    print('No Specified Location');
+}
 }
