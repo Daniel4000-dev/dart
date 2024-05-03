@@ -6,7 +6,7 @@ void main() {
   int age = 20;
 
   // !isAllowed -> false
-  if(age != 18 && isAllowed) {
+  if(age != 18 || isAllowed) {
     print('oops!');
   } else {
     print('haaa!');
