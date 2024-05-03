@@ -1,15 +1,12 @@
 void main() {
   // Functions
-   var (age, name, isAdult, greeting) = printName();
-   print(name);
-   print(age);
-   print(isAdult);
-   print(greeting);
+   String name = 'Rivaan R.';
+   printName(name);
 }
 
 
-(int, String, bool, String) printName() {
-  return (12, 'My Name is Daniel', false, 'Hi');
+void printName(name) {
+ print(name);
 }
 
 /*
