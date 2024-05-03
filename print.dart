@@ -7,8 +7,8 @@ void main() {
   print(someValue);
   someValue =  null;
   print(someValue?.length??0);
-  someValue = null;
-  print(someValue?.length);
+  someValue =null;
+  print(someValue?.length??1);
 
 
 
