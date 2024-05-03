@@ -1,10 +1,10 @@
 void main() {
-  // Variables
-  // var/final/const variableName = value;
+  // Optional Variables
+  // String/int/bool and null
 
-  final someValue2 = DateTime.now();
-  // const someValue3 = DateTime.now();
 
-   print(someValue2);
+  int? someValue2 = null;
+
+
 
 }
