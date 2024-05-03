@@ -1,8 +1,10 @@
 void main() {
   // Variables
+  String greeting = 'Hello, World';
+  print(greeting);
+  greeting = '${greeting.length} Yoooo';
 
-  // <datatype> <variablename> = value;
+  print(greeting);
 
-  bool isAdult = true;
-  print(isAdult);
+
 }
