@@ -1,11 +1,12 @@
 void main() {
   // Functions
-   printName();
+   String name = printName();
+   print(name);
 }
 
 
-void printName() {
-  print('Rivaan');
+String printName() {
+  return 'My Name is Daniel';
 }
 
 /*
