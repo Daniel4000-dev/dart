@@ -3,6 +3,6 @@ void main() {
 
   // <datatype> <variablename> = value;
 
-  String firstValue = 'Hello, World!';
-  print(firstValue);
+  bool isAdult = true;
+  print(isAdult);
 }
